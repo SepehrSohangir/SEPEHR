@@ -1,0 +1,84 @@
+# -----------------------------
+# Backend (.NET / C#)
+# -----------------------------
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.dmp
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+*.snupkg
+.nuget/
+
+# Rider
+.idea/
+
+# -----------------------------
+# Frontend (React / Node)
+# -----------------------------
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+build/
+dist/
+.cache/
+.next/
+out/
+
+# Testing
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------------
+# OS & Misc
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Others (optional)
+# -----------------------------
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs & Editors
+*.iml
+.vscode/
+*.swp
+*.swo
